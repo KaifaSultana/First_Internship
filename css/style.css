@@ -1,0 +1,94 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+    
+}
+.left img{
+    width: 65px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    font-size: 10px;
+}
+.mid{
+    
+    display: block;
+    margin: 20px auto;
+    width: 37%;
+}
+.right{
+    
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+.right .btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+.btn:hover{
+    color: gray;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+}
+.navbar li a{
+    color: white;
+    padding: 34px 23px;
+    text-decoration: none;
+}
+.navbar li a:hover ,.navbar li a:active{
+    text-decoration: underline;
+    color: rgb(217, 223, 147);
+}
+.container{
+    border: 1px rgb(159, 186, 202) solid;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 28%;
+    height: 350px;
+    border-radius: 9px;
+}
+.container h1{
+    text-align: center;
+    margin-top: 5px;
+}
+.container button{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    padding: 2px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 420px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+}
